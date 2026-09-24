@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Dinamis</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #111827;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: #1f2937;
+      border-radius: 24px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,.4);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 30px;
+    }
+
+    p {
+      color: #9ca3af;
+      margin-bottom: 25px;
+    }
+
+    .qr {
+      background: white;
+      padding: 18px;
+      border-radius: 18px;
+      display: inline-block;
+      margin-bottom: 25px;
+    }
+
+    .qr img {
+      width: 260px;
+      max-width: 100%;
+      display: block;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border-radius: 12px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .button:active {
+      transform: scale(.98);
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <h1>📍 Lokasi Kami</h1>
+
+    <p>Scan QR Code untuk membuka lokasi di Google Maps</p>
+
+    <div class="qr">
+      <img src="IMG_5739.png">alt="QR Code Google Maps">
+    </div>
+
+    <a
+      class="button"
+      href="https://maps.app.goo.gl/nTtge8ebrapoBTyQ8?g_st=ic"
+      target="_blank">
+      📍 Buka Google Maps
+    </a>
+
+    <div class="footer">
+      QR Dinamis
+    </div>
+
+  </div>
+
+</body>
+</html>
